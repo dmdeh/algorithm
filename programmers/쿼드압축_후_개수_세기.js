@@ -3,7 +3,12 @@
 
 programmers
 
-간단한 문제 설명
+arr                   result
+[[1,1,0,0],
+ [1,0,0,0],
+ [1,0,0,1],
+ [1,1,1,1]]	          [4,9]
+또 풀어보기
 */
 
 function solution(arr) {
@@ -32,7 +37,7 @@ function solution(arr) {
     divide(area3);
     divide(area4);
   }
-  
+
   divide(arr);
   return result;
 }
